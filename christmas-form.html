@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Christmas Survey Form</title>
+    <link rel="stylesheet" href="christmas-form.css">
+<body>
+  <h1 id="title">Christmas Survey</h1>
+  <p id="description">Please answer the following questions about Christmas</p>
+  <form id="survey-form" required>
+  <fieldset id="personal-information">
+    <legend>Personal information</legend>
+
+    <label id="name-label" for="name">Name:</label>
+    <input id="name" type="text" placeholder="Santa Claus" required/>
+    <label id="email-label" for="email">Email:</label>
+    <input id="email" type="email" placeholder="hohoho@gmail.com" required/>
+    <label id="number-label" for="age">Age:</label>
+    <input id="number" type="number" min="18" max="120" placeholder="18"/>
+    <label id="phone-number-label" for="">Telephone number:</label>
+    <input id="phone-number" type="number" min="10" max="10" placeholder="(+27) "/></label>
+ </fieldset>
+ <fieldset>
+  <legend>What do you enjoy most about Christmas?</legend>
+  <select id="dropdown">
+  <option value="""">Select one</option>
+  <option>Christmas presents</option>
+  <option>Time with family</option>
+  <option>Festive traditions</option>
+  <option>Giving to others</option>
+  <option>Eating festive foods</option>
+  <option>Watching Christmas movies</option>
+</select>
+</fieldset>
+<fieldset>
+  <legend class="snack">What is your favourite Christmas food/snack?</legend>
+  
+ <label>
+    <input type="radio" name="food" value="gingerbread"> Gingerbread
+  </label>
+  <label>
+    <input type="radio" name="food" value="gammon"> Gammon
+  </label>
+  <label>
+    <input type="radio" name="food" value="candy_canes"> Candy Canes
+  </label>
+  <label>
+    <input type="radio" name="food" value="eggnog"> Eggnog
+  </label>
+  <label>
+    <input type="radio" name="food" value="christmas_pudding"> Christmas Pudding
+  </label>
+  <label>
+    <input type="radio" name="food" value="mince_pie"> Mince Pie
+  </label>
+</fieldset>
+
+   <textarea placeholder="What makes this food your favourite?"></textarea>
+
+<fieldset>
+  <legend>Which of Santa's reindeer is your favourite?</legend>
+  <label for="Rudolph">Rudolph<input id="Rudolph" type="checkbox" value ="Rudolph"/></label>
+  <label for="Dasher">Dasher<input id="Dasher" type="checkbox" value ="Dasher"/></label>
+  <label for="Prancer">Prancer<input id="Prancer" type="checkbox" value ="Prancer"/></label>
+  <label for="Dancer">Dancer<input id="Dancer" type="checkbox" value ="Dancer"/></label>
+  <label for="Vixen">Vixen<input id="Vixen" type="checkbox" value ="Vixen"/></label>
+  <label for="Comet">Comet<input id="Comet" type="checkbox" value ="Comet"/></label>
+  <label for="Cupid">Cupid<input id="Cupid" type="checkbox" value ="Cupid"/></label>
+  <label for="Donner">Donner<input id="Donner" type="checkbox" value ="Donner"/></label>
+  <label for="Blitzen">Blitzen<input id="Blitzen" type="checkbox" value ="Blitzen"/></label>
+</fieldset>
+
+  <textarea placeholder="Why is he/she your favourite?"></textarea>
+
+<fieldset>
+  <input type="submit" id="submit"/>
+</fieldset>
+  </form>  
+</body>
+</html>

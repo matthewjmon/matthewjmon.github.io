@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Georgia", serif;
+  background-color: #f2f8f2;
+  color: #333;
+  text-align: center;
+  padding: 50px;
+  background-image: url("https://images.unsplash.com/photo-1545048702-79362596cdc9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNocmlzdG1hc3xlbnwwfHwwfHx8MA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #f4f4f4;
+}
+
+#title {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+}
+
+#description {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+h1, p {
+  margin-bottom: 20px;
+}
+
+#survey-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 30px;
+  border: 2px solid #c0392b;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: auto;
+  font-family: 'Georgia', serif;
+}
+
+fieldset {
+  border: 2px solid #c0392b;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fafafa;
+  display: block;
+  width: 100%; /
+  max-width: 500px; 
+  box-sizing: border-box;
+  margin: 20px auto;
+}
+
+legend {
+  font-size: 1.75rem;
+  color: #c0392b;
+  font-weight: bold;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  font-size: 1.25rem;
+  color: green;
+  margin-bottom: 10px;
+  text-align: center; 
+  margin-top: 10px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #c0392b;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #e74c3c;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+  background-color: #c0392b; 
+}
+
+#personal-information {
+  margin: auto;
+}
+
+fieldset > label {
+  margin-bottom: 20px;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+
+
+
